@@ -36,6 +36,7 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -68,6 +69,12 @@ export default {
 				}
 			}
 		},
+  },
+  googleFonts: {
+    families: {
+      'Nunito+Sans': [200, 900],
+    },
+    display: 'swap'
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

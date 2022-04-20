@@ -13,14 +13,13 @@ export default {
     return {
       bodyAttrs: {
         class: 'bg-main'
-      }
+      },
     }
   }
 }
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;900&display=swap');
 
 body {
 	font-family: "Nunito Sans", sans-serif;
