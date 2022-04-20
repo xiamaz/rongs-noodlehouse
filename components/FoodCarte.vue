@@ -16,7 +16,7 @@
 
 <script>
 import { UsedAdditives } from "@/src/AdditiveMethods";
-import menuJson from "@/assets/menu.json";
+import menuJson from "@/src/menu.ts";
 export default {
 	data() {
 		return {

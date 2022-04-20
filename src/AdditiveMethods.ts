@@ -1,4 +1,4 @@
-import menuJson from "~/assets/menu.json"
+import menuJson from "@/src/menu"
 import AdditiveId, { Additive } from "@/types/Additive";
 import { MenuSection } from "@/types/FoodMenu";
 
