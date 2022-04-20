@@ -159,7 +159,7 @@ export default {
 							"name-cn": "米饭或馒头盖浇素菜",
 							"desc": "Wahlweise mit Reis oder 3 Scheiben gedämpften Mantou.",
 							"desc-en": "Either with rice or 3 slices of steamed mantou.",
-							"price": 550,
+							"price": 650,
 							"additives": [13, 18, 21]
 						}
 					]
@@ -173,16 +173,16 @@ export default {
 						{
 							"name": "Yang Chun Mian",
 							"name-cn": "阳春面",
-							"desc": "Hausgemachte Nudeln in einer leichten Sojasauce-basierten Brühe mit Frühlingszwiebeln original aus Shanghai.",
-							"desc-en": "Shanghai-style noodle soup with a light soy-based broth with scallions.",
-							"price": 750,
+							"desc": "Nudeln in einer leichten Sojasauce-basierten Brühe mit Schweinefleisch garniert mit Frühlingszwiebeln.",
+							"desc-en": "Noodles in a light soy sauce based broth served with pork and garnished with scallions.",
+							"price": 850,
 							"additives": [13, 18]
 						},
 						{
-							"name": "Re Gan Mian",
-							"name-cn": "热干面",
-							"desc": "Nudelgericht mit einer Sauce aus Sesampaste, Sojasauce und Chiliöl.",
-							"desc-en": "Noodles mixed with a sauce of sesame paste, soy sauce and chili oil.",
+							"name": "Re Ban Mian",
+							"name-cn": "热拌面",
+							"desc": "Nudelgericht mit einer Sauce aus Sesampaste und Sojasauce, wahlweise mit Chiliöl.",
+							"desc-en": "Noodles mixed with a sauce of sesame paste, soy sauce and optionally chili oil.",
 							"price": 850,
 							"additives": [13, 18, 23]
 						}
@@ -197,7 +197,7 @@ export default {
 							"name-cn": "猪骨汤面",
 							"desc": "Hausgemachte Ramen mit herzhafter Schweinebrühe angerichtet mit Mungbohnen, Bambussprossen und zart gegartem Schweinebauch (Chashao).",
 							"desc-en": "Homemade ramen with a pork-based broth, served with mung beans, bamboo shoots and tender pork belly.",
-							"price": 1150,
+							"price": 1100,
 							"additives": [13, 15, 18, 25]
 						},
 						{
@@ -206,7 +206,7 @@ export default {
 							"name-cn": "猪骨酱汤面",
 							"desc": "Hausgemachte Ramen mit herzhafter Miso-Brühe angerichtet mit Mungbohnen, Bambussprossen und zart gegartem Schweinebauch (Chashao).",
 							"desc-en": "Homemade ramen with a miso-based broth, served with mung beans, bamboo shoots and tender pork belly.",
-							"price": 1050,
+							"price": 1100,
 							"additives": [1, 13, 15, 18, 25]
 						},
 						{
@@ -246,14 +246,14 @@ export default {
 						},
 						{
 							"name": "Mariniertes Schweinefleisch",
-							"name-en": "Marinated pork belly",
+							"name-en": "Marinated pork",
 							"desc": "",
 							"price": 350,
 							"additives": [18, 23]
 						},
 						{
-							"name": "Zart gegartes tranchiertes Rindfleisch",
-							"name-en": "Tender cooked beef slices",
+							"name": "Mariniertes Rindfleisch",
+							"name-en": "Marinated beef",
 							"desc": "",
 							"price": 350,
 							"additives": [18, 23]
@@ -271,36 +271,31 @@ export default {
 					"name": "Kaffee",
 					"name-en": "Coffee",
 					"desc": "",
-					"price": 220,
+					"price": 180,
 					"additives": [9]
 				},
 				{
-					"name": "Soda",
+					"name": "Tee",
+					"name-en": "Tea",
 					"desc": "",
-					"price": 220,
-					"additives": [0, 9]
-				},
-				{
-					"name": "Mineralwasser",
-					"name-en": "Mineral water",
-					"desc": "Wahlweise spritzig oder still.",
-					"desc-en": "Either carbonated or still.",
-					"price": 220,
+					"price": 180,
 					"additives": []
 				},
 				{
-					"name": "Fruchtsaft",
-					"name-en": "Fruit juices",
+					"name": "Fruchtsaft mit Eiswürfeln",
+					"name-en": "Fruit juice with ice cubes",
 					"desc": "",
-					"price": 220,
-					"additives": [2]
+					"price": 180,
+					"additives": []
 				},
 				{
-					"name": "Red Bull",
-					"desc": "",
-					"price": 220,
-					"additives": [0, 9]
-				}
+					"name": "Flaschen-/Dosengetränke",
+					"name-en": "Packackged beverages",
+					"desc": "Auswahl aus Mineralwasser, Red-Bull und Soda.",
+					"desc-en": "Selection from mineral water, red bull and soda.",
+					"price": 200,
+					"additives": [0, 2, 9]
+				},
 			]
 		}
 	]
