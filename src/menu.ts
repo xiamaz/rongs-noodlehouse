@@ -195,8 +195,8 @@ export default {
 						{
 							"name": "Tonkotsu-basis",
 							"name-cn": "猪骨汤面",
-							"desc": "Hausgemachte Ramen mit herzhafter Schweinebrühe angerichtet mit Mungbohnen, Bambussprossen und zart gegartem Schweinebauch (Chashao).",
-							"desc-en": "Homemade ramen with a pork-based broth, served with mung beans, bamboo shoots and tender pork belly.",
+							"desc": "Hausgemachte Ramen mit herzhafter Schweinebrühe und zart gegartem Schweinebauch (Chashao) sowie verschiedenen Toppings.",
+							"desc-en": "Homemade ramen with a pork-based broth, tender pork belly and assorted toppings.",
 							"price": 1100,
 							"additives": [13, 15, 18, 25]
 						},
@@ -204,8 +204,8 @@ export default {
 							"name": "Miso-basis",
 							"name-en": "Miso-based",
 							"name-cn": "猪骨酱汤面",
-							"desc": "Hausgemachte Ramen mit herzhafter Miso-Brühe angerichtet mit Mungbohnen, Bambussprossen und zart gegartem Schweinebauch (Chashao).",
-							"desc-en": "Homemade ramen with a miso-based broth, served with mung beans, bamboo shoots and tender pork belly.",
+							"desc": "Hausgemachte Ramen mit herzhafter Miso-Brühe und zart gegartem Schweinebauch (Chashao) sowie verschiedenen Toppings.",
+							"desc-en": "Homemade ramen with a miso-based broth, served with tender pork belly and assorted toppings.",
 							"price": 1100,
 							"additives": [1, 13, 15, 18, 25]
 						},
@@ -213,8 +213,8 @@ export default {
 							"name": "Miso-basis (vegan)",
 							"name-en": "Miso-based (vegan)",
 							"name-cn": "素汤面",
-							"desc": "Vegane Misobrühe angerichtet mit Mungbohnen, Bambusssprossen und würzig mariniertem Tofu.",
-							"desc-en": "Ramen with a vegan miso-broth served with mung beans, bamboo shoots and aromatically marinated tofu slices.",
+							"desc": "Ramen in veganer Misobrühe mit würzig mariniertem Tofu und verschiedenen Toppings.",
+							"desc-en": "Ramen with a vegan miso-broth, aromatically marinated tofu slices and assorted toppings.",
 							"price": 950,
 							"additives": [
 								1,
