@@ -134,58 +134,53 @@ export default {
 	"sections": [
 		{
 			"title": "Speisen",
-			"title-en": "A la carte menu",
+			"title-en": "Menu",
 			"desc": "Unser Tofu und Ramen ist hausgemacht. Alle Speisen wird kein Geschmacksverstärker zugesetzt.",
 			"desc-en": "Our tofu and ramen are made in-house. No artificial flavoring is added to all dishes.",
+			"items": [
+						{
+							"name": "Nudelsuppe mit Schweinefleisch oder Rindfleisch",
+							"name-en": "Noodle soup with pork or beef",
+							"name-cn": "猪肉面/红烧牛肉面",
+							"desc": "",
+							"desc-en": "",
+							"price": 750,
+							"additives": [13, 15, 18, 21]
+						},
+						{
+							"name": "Nudelsuppe vegetarisch mit Tofu",
+							"name-en": "Noodle soup vegetarian",
+							"name-cn": "素面",
+							"desc": "",
+							"desc-en": "",
+							"price": 650,
+							"additives": [13, 18, 21]
+						},
+			],
 			"subsections": [
 				{
-					"title": "Tellergerichte",
-					"title-en": "Daily menu",
-					"desc": "Tageswechselnde Auswahl an Fleischgerichten und veganen Speisen wahlweise mit Reis oder Mantou (chin. Hefekloß).",
-					"desc-en": "Changing selection of meat-based and vegetable dishes paired either with rice or mantou (chinese steamed dumplings).",
+					"title": "Chinesische Teigtaschen und Bao",
+					"title-en": "Chinese Dumplings and Baos",
+					"desc": "",
 					"items": [
 						{
-							"name": "Tagesgericht mit Fleisch",
-							"name-en": "Daily special with meat",
-							"name-cn": "米饭或馒头盖浇肉菜",
-							"desc": "Wahlweise mit Reis oder 3 Scheiben gedämpften Mantou.",
-							"desc-en": "Either with rice or 3 slices of steamed mantou.",
-							"price": 650,
+							"name": "Bao (4 Stk., gedämpft) mit Schweinefleisch oder Huhn",
+							"name-en": "Bao (4 pc., steamed) with pork or chicken",
+							"name-cn": "猪肉包/鸡肉包",
+							"desc": "",
+							"desc-en": "",
+							"price": 600,
 							"additives": [13, 18, 21]
 						},
 						{
-							"name": "Tagesgericht vegan",
-							"name-en": "Daily special vegan",
-							"name-cn": "米饭或馒头盖浇素菜",
-							"desc": "Wahlweise mit Reis oder 3 Scheiben gedämpften Mantou.",
-							"desc-en": "Either with rice or 3 slices of steamed mantou.",
+							"name": "Jiaozi (gekochte chin. Teigtaschen) mit Schweinefleisch",
+							"name-en": "Chinese Dumplings with pork filling",
+							"name-cn": "猪肉水饺",
+							"desc": "",
+							"desc-en": "",
 							"price": 650,
 							"additives": [13, 18, 21]
-						}
-					]
-				},
-				{
-					"title": "Traditionelle Nudelgerichte",
-					"title-en": "Traditional noodle dishes",
-					"desc": "Nudelgerichte mit Ursprung in verschiedenen Regionen Chinas.",
-					"desc-en": "Noodle dishes from various regions of china.",
-					"items": [
-						{
-							"name": "Yang Chun Mian",
-							"name-cn": "阳春面",
-							"desc": "Nudeln in einer leichten Sojasauce-basierten Brühe mit Schweinefleisch garniert mit Frühlingszwiebeln.",
-							"desc-en": "Noodles in a light soy sauce based broth served with pork and garnished with scallions.",
-							"price": 850,
-							"additives": [13, 18]
 						},
-						{
-							"name": "Re Ban Mian",
-							"name-cn": "热拌面",
-							"desc": "Nudelgericht mit einer Sauce aus Sesampaste und Sojasauce, wahlweise mit Chiliöl.",
-							"desc-en": "Noodles mixed with a sauce of sesame paste, soy sauce and optionally chili oil.",
-							"price": 850,
-							"additives": [13, 18, 23]
-						}
 					]
 				},
 				{
@@ -201,7 +196,7 @@ export default {
 							"additives": [13, 15, 18, 25]
 						},
 						{
-							"name": "Miso-basis",
+							"name": "Tonkotsu-Miso-basis",
 							"name-en": "Miso-based",
 							"name-cn": "猪骨酱汤面",
 							"desc": "Hausgemachte Ramen mit herzhafter Miso-Brühe und zart gegartem Schweinebauch (Chashao) sowie verschiedenen Toppings.",
@@ -215,7 +210,7 @@ export default {
 							"name-cn": "素汤面",
 							"desc": "Ramen in veganer Misobrühe mit würzig mariniertem Tofu und verschiedenen Toppings.",
 							"desc-en": "Ramen with a vegan miso-broth, aromatically marinated tofu slices and assorted toppings.",
-							"price": 950,
+							"price": 850,
 							"additives": [
 								1,
 								13,
@@ -234,30 +229,23 @@ export default {
 							"name": "Edamame (grüne Sojabohnen) mit Meersalz",
 							"name-en": "Edamame (green soybeans) with sea salt",
 							"desc": "",
-							"price": 350,
+							"price": 300,
 							"additives": []
 						},
 						{
-							"name": "Frisches Tofu",
-							"name-en": "Fresh tofu",
+							"name": "Chin. Gurkensalat",
+							"name-en": "Chinese Cucumber Salad",
 							"desc": "",
-							"price": 350,
-							"additives": [18]
-						},
-						{
-							"name": "Mariniertes Schweinefleisch",
-							"name-en": "Marinated pork",
-							"desc": "",
-							"price": 350,
+							"price": 300,
 							"additives": [18, 23]
 						},
 						{
-							"name": "Mariniertes Rindfleisch",
-							"name-en": "Marinated beef",
+							"name": "Kimchi",
+							"name-en": "Kimchi",
 							"desc": "",
-							"price": 350,
+							"price": 300,
 							"additives": [18, 23]
-						}
+						},
 					]
 				}
 			]
@@ -275,24 +263,10 @@ export default {
 					"additives": [9]
 				},
 				{
-					"name": "Tee",
-					"name-en": "Tea",
-					"desc": "",
-					"price": 180,
-					"additives": []
-				},
-				{
-					"name": "Fruchtsaft mit Eiswürfeln",
-					"name-en": "Fruit juice with ice cubes",
-					"desc": "",
-					"price": 180,
-					"additives": []
-				},
-				{
 					"name": "Flaschen-/Dosengetränke",
 					"name-en": "Packackged beverages",
-					"desc": "Auswahl aus Mineralwasser, Red-Bull und Soda.",
-					"desc-en": "Selection from mineral water, red bull and soda.",
+					"desc": "",
+					"desc-en": "",
 					"price": 200,
 					"additives": [0, 2, 9]
 				},
