@@ -3,10 +3,10 @@
 			<div class="text-xl mt-4 font-bold">
 				{{ section[`title-${localeSuffix}`] || section.title }}
 			</div>
-			<div class="my-2">
+			<div class="my-2 mb-4">
 				{{ section[`desc-${localeSuffix}`] || section.desc }}
 			</div>
-			<ul class="space-y-4">
+			<ul class="space-y-4 print:space-y-1">
 				<FoodItem :item="item" v-for="item in section.items" :key="item.name" :localeSuffix="localeSuffix"/>
 			</ul>
 			<div v-if="section.subsections && section.subsections.length > 0">
