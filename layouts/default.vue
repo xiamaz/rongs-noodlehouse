@@ -1,9 +1,9 @@
 <template>
   <div class="container-sm mx-auto pt-4 max-w-3xl">
 	  <Title/>
-    <LocaleSwitcher/>
+    <LocaleSwitcher class="print:hidden"/>
       <Nuxt />
-    <FooterSection/>
+    <FooterSection class="print:hidden"/>
   </div>
 </template>
 

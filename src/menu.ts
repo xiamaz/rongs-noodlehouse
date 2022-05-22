@@ -144,6 +144,13 @@ export default {
 							"name-cn": "猪肉面/红烧牛肉面",
 							"desc": "",
 							"desc-en": "",
+							"pictures": [
+								{
+									"path": "photos/beef-ramen.jpeg",
+									"alt": "Nudelsuppe mit Rindfleisch",
+									"alt-de": "Beef Noodle Soup"
+								}
+							],
 							"price": 750,
 							"additives": [13, 15, 18, 21]
 						},
@@ -178,6 +185,13 @@ export default {
 							"name-cn": "猪肉水饺",
 							"desc": "",
 							"desc-en": "",
+							"pictures": [
+								{
+									"path": "photos/jiaozi.jpeg",
+									"alt": "Chinesische Teigtaschen",
+									"alt-de": "Chinese Dumplings"
+								}
+							],
 							"price": 650,
 							"additives": [13, 18, 21]
 						},

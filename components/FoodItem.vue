@@ -1,19 +1,26 @@
 <template>
-	<li :key="item.name" class="grid grid-cols-[5rem_auto] text-sm">
-		<div class="flex justify-end text-lg px-4 font-bold">
-			{{ formatPrice(item.price) }} 
+	<li :key="item.name" class="flex sm:flex-row flex-col items-center mt-1">
+		<div class="sm:w-36 w-9/12 flex-shrink-0" >
+			<nuxt-img v-if="item['pictures']" class="rounded-2xl" :src="item['pictures'][0]['path']" alt=""/>
 		</div>
-		<div class="text-lg font-black">
-			{{ item[`name-${localeSuffix}`] || item.name }}
-			<sup class="font-thin text-xs">
-				{{ formatAdditives(item.additives) }}
-			</sup>
-		</div>
-		<div v-if="item['name-cn']" class="col-start-2">
-			{{item['name-cn']}}
-		</div>
-		<div class="col-start-2">
-			{{ item[`desc-${localeSuffix}`] || item.desc }}
+		<div class="flex ml-2 flex-row mt-1 sm:w-auto w-full">
+			<div class="w-16 flex justify-end text-lg px-4 font-bold">
+				{{ formatPrice(item.price) }} 
+			</div>
+			<div>
+				<div class="text-lg font-black">
+					{{ item[`name-${localeSuffix}`] || item.name }}
+					<sup class="font-thin text-xs">
+						{{ formatAdditives(item.additives) }}
+					</sup>
+				</div>
+				<div v-if="item['name-cn']" class="text-sm font-normal">
+					{{item['name-cn']}}
+				</div>
+				<div class="text-sm font-normal">
+					{{ item[`desc-${localeSuffix}`] || item.desc }}
+				</div>
+			</div>
 		</div>
 	</li>
 </template>
@@ -30,7 +37,7 @@ export default {
 		},
 		formatPrice(price) {
 			let [euros, cents] = this.priceToEurCent(price);
-			let fmtString = `${euros},${cents}`;
+			let fmtString = `${euros},${cents.toString().padStart(2, '0')}`;
 			return fmtString;
 		},
 		formatAdditives(additives) {

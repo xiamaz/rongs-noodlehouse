@@ -1,6 +1,6 @@
 <template>
 <div>
-	<OpeningHours/>
+	<OpeningHours class="print:hidden" />
 	<FoodCarte/>
 </div>
 </template>

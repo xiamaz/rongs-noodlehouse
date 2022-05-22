@@ -4,6 +4,9 @@ module.exports = {
       'main': '#f7edc4',
     },
     extend: {
+      screens: {
+        'print': {'raw': 'print'}
+      }
     },
   },
   plugins: [],
