@@ -135,7 +135,7 @@ export default {
 		{
 			"title": "Speisen",
 			"title-en": "Menu",
-			"desc": "Unser Tofu und Ramen ist hausgemacht. Alle Speisen wird kein Geschmacksverstärker zugesetzt.",
+			"desc": "Unser Tofu und Ramen sind hausgemacht. Allen Speisen wird kein Geschmacksverstärker zugesetzt.",
 			"desc-en": "Our tofu and ramen are made in-house. No artificial flavoring is added to all dishes.",
 			"items": [
 						{
