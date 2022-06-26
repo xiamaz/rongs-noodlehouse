@@ -37,6 +37,7 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
+    '@nuxtjs/fontawesome',
     '@nuxt/image'
   ],
 
@@ -73,9 +74,17 @@ export default {
   },
   googleFonts: {
     families: {
-      'Nunito+Sans': [200, 900],
+      'Nunito+Sans': [200, 400, 900],
     },
     display: 'swap'
+  },
+  fontawesome: {
+    component: 'Fa',
+    suffix: false,
+    icons: {
+      solid: true,
+      brands: true,
+    },
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
