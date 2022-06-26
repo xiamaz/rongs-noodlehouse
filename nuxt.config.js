@@ -74,7 +74,7 @@ export default {
   },
   googleFonts: {
     families: {
-      'Nunito+Sans': [200, 400, 900],
+      'Nunito+Sans': [400, 900],
     },
     display: 'swap'
   },
