@@ -138,6 +138,13 @@ export default {
 			"desc": "Unser Tofu, Ramen und unsere Dumplings sind allesamt hausgemacht. Allen Speisen wird kein Geschmacksverstärker zugesetzt.",
 			"desc-en": "Our tofu, ramen and dumplings are all made in-house. No artificial flavoring is added to all dishes.",
 			"items": [
+			],
+			"subsections": [
+				{
+					"title": "Nudelgerichte nach traditionell chinesischer Art",
+          "title-en": "Traditional chinese noodle dishes",
+					"desc": "Optional: Extra Nudeln +2€, Extra Ei +1€",
+					"items": [
 						{
 							"name": "Nudelsuppe mit Schweinefleisch oder Rindfleisch",
 							"name-en": "Noodle soup with pork or beef",
@@ -163,22 +170,78 @@ export default {
 							"price": 650,
 							"additives": [13, 18, 21]
 						},
-			],
-			"subsections": [
+            {
+              "name": "Chinesische Kalte Nudeln mit Rind/Schwein",
+              "name-en": "Chinese Cold Noodles with beef/pork",
+              "name-cn": "东北冷面",
+              "desc": "Mit Eis gekühlte Nudeln mit verschiedenen Toppings, sowie Rindfleisch oder Schweinefleisch-Chashao in würziger Brühe.",
+              "desc-en": "Ice-chilled noodles with various toppings, sowie Rindfleisch oder Schweinefleisch-Chashao in a spicy broth.",
+              "price": 850,
+              "additives": [13, 18, 23],
+							"pictures": [
+								{
+									"path": "photos/cold_noodles_beef.jpeg",
+									"alt": "Chinesische Kalte Nudeln",
+									"alt-de": "Chinese Cold Noodles"
+								}
+							],
+            },
+            {
+              "name": "Kalte Nudeln (vegan)",
+              "name-en": "Cold Noodles (vegan)",
+              "name-cn": "素冷面",
+              "desc": "Mit Eis gekühlte Nudeln mit verschiedenen veganen Toppings und Brühe.",
+              "desc-en": "Ice-chilled noodles with various vegan toppings and broth.",
+              "price": 650,
+              "additives": [13, 18, 23],
+							"pictures": [
+								{
+									"path": "photos/cold_noodles_vegan.jpeg",
+									"alt": "Kalte Nudeln Vegan",
+									"alt-de": "Cold Noodles Vegan"
+								}
+							],
+            },
+						{
+							"name": "Tonkotsu Ramen",
+							"name-cn": "猪骨汤面",
+							"desc": "Hausgemachte Ramen mit herzhafter Schweinebrühe und zart gegartem Schweinebauch (Chashao) sowie verschiedenen Toppings.",
+							"desc-en": "Homemade ramen with a pork-based broth, tender pork belly and assorted toppings.",
+							"price": 1100,
+							"additives": [13, 15, 18, 25]
+						},
+					]
+				},
 				{
 					"title": "Chinesische Teigtaschen und Bao",
 					"title-en": "Chinese Dumplings and Baos",
 					"desc": "",
 					"items": [
 						{
-							"name": "Bao (4 Stk., gedämpft) mit Schweinefleisch oder Huhn",
-							"name-en": "Bao (4 pc., steamed) with pork or chicken",
+							"name": "Traditionelle Bao (4 Stk., gedämpft) mit Schweinefleisch oder Huhn",
+							"name-en": "Traditional Bao (4 pc., steamed) with pork or chicken",
 							"name-cn": "猪肉包/鸡肉包",
 							"desc": "",
 							"desc-en": "",
 							"price": 600,
 							"additives": [13, 18, 21]
 						},
+            {
+							"name": "Gua Bao mit Rind/Schwein/Tofu",
+							"name-en": "Gua Bao with Beef/Pork/Tofu",
+							"name-cn": "割包",
+							"desc": "Gedämpftes Brot belegt mit wahlweise Rind, Schweinefleisch oder Tofu.",
+							"desc-en": "Steamed bread stuffed with either beef, pork or tofu.",
+							"pictures": [
+								{
+									"path": "photos/bao_vegan_pork_tofu.jpeg",
+									"alt": "Gua Bao",
+									"alt-de": "Gua Bao"
+								}
+							],
+							"price": 400,
+							"additives": [13, 18, 21]
+            },
 						{
 							"name": "Jiaozi (gekochte chin. Teigtaschen) mit Schweinefleisch",
 							"name-en": "Chinese Dumplings with pork filling",
@@ -195,43 +258,6 @@ export default {
 							"price": 650,
 							"additives": [13, 18, 21]
 						},
-					]
-				},
-				{
-					"title": "Ramen",
-					"desc": "",
-					"items": [
-						{
-							"name": "Tonkotsu-basis",
-							"name-cn": "猪骨汤面",
-							"desc": "Hausgemachte Ramen mit herzhafter Schweinebrühe und zart gegartem Schweinebauch (Chashao) sowie verschiedenen Toppings.",
-							"desc-en": "Homemade ramen with a pork-based broth, tender pork belly and assorted toppings.",
-							"price": 1100,
-							"additives": [13, 15, 18, 25]
-						},
-						{
-							"name": "Tonkotsu-Miso-basis",
-							"name-en": "Miso-based",
-							"name-cn": "猪骨酱汤面",
-							"desc": "Hausgemachte Ramen mit herzhafter Miso-Brühe und zart gegartem Schweinebauch (Chashao) sowie verschiedenen Toppings.",
-							"desc-en": "Homemade ramen with a miso-based broth, served with tender pork belly and assorted toppings.",
-							"price": 1100,
-							"additives": [1, 13, 15, 18, 25]
-						},
-						{
-							"name": "Miso-basis (vegan)",
-							"name-en": "Miso-based (vegan)",
-							"name-cn": "素汤面",
-							"desc": "Ramen in veganer Misobrühe mit würzig mariniertem Tofu und verschiedenen Toppings.",
-							"desc-en": "Ramen with a vegan miso-broth, aromatically marinated tofu slices and assorted toppings.",
-							"price": 850,
-							"additives": [
-								1,
-								13,
-								18,
-								25
-							]
-						}
 					]
 				},
 				{
@@ -261,7 +287,7 @@ export default {
 							"additives": [18, 23]
 						},
 					]
-				}
+				},
 			]
 		},
 		{
