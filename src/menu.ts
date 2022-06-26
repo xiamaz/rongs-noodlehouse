@@ -135,13 +135,13 @@ export default {
 		{
 			"title": "Speisen",
 			"title-en": "Menu",
-			"desc": "Unser Tofu und Ramen sind hausgemacht. Allen Speisen wird kein Geschmacksverstärker zugesetzt.",
-			"desc-en": "Our tofu and ramen are made in-house. No artificial flavoring is added to all dishes.",
+			"desc": "Unser Tofu, Ramen und unsere Dumplings sind allesamt hausgemacht. Allen Speisen wird kein Geschmacksverstärker zugesetzt.",
+			"desc-en": "Our tofu, ramen and dumplings are all made in-house. No artificial flavoring is added to all dishes.",
 			"items": [
 						{
 							"name": "Nudelsuppe mit Schweinefleisch oder Rindfleisch",
 							"name-en": "Noodle soup with pork or beef",
-							"name-cn": "猪肉面/红烧牛肉面",
+							"name-cn": "猪肉面/牛肉面",
 							"desc": "",
 							"desc-en": "",
 							"pictures": [
