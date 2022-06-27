@@ -1,11 +1,11 @@
 <template>
 	<li :key="item.name" class="flex sm:flex-row flex-col items-center mt-1">
 		<div class="sm:w-36 w-9/12 flex-shrink-0 print:hidden" >
-			<nuxt-img v-if="item['pictures']" class="rounded-2xl" :src="item['pictures'][0]['path']" alt=""/>
+			<nuxt-img v-if="item['pictures']"  sizes="sm:100vw md:288px" format="webp" class="rounded-2xl" :src="item['pictures'][0]['path']" alt=""/>
 		</div>
 		<div class="flex ml-2 flex-row mt-1 sm:w-auto w-full">
 			<div class="w-16 flex justify-end text-lg px-4 font-bold">
-				{{ formatPrice(item.price) }} 
+				{{ formatPrice(item.price) }}
 			</div>
 			<div>
 				<div class="text-lg font-black">
