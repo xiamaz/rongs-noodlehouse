@@ -21,10 +21,12 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@fortawesome/fontawesome-svg-core/styles.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    '~/plugins/fontawesome.js',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -32,19 +34,15 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
-    // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
-    '@nuxtjs/fontawesome',
     '@nuxt/image'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/i18n',
-
   ],
 	i18n: {
 		locales: ['en', 'de'],
@@ -78,15 +76,10 @@ export default {
     },
     display: 'swap'
   },
-  fontawesome: {
-    component: 'Fa',
-    suffix: false,
-    icons: {
-      solid: true,
-      brands: true,
-    },
+  purgeCSS: {
+    whitelistPatterns: [/svg.*/, /fa.*/]
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
 }

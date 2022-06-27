@@ -9,7 +9,8 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+  ],
   mode: "jit",
   content: [
     "./components/**/*.{vue,js}",
@@ -17,5 +18,7 @@ module.exports = {
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
     // "./nuxt.config.{js,ts}",
-  ]
+  ],
+  safelist: [
+  ],
 }
