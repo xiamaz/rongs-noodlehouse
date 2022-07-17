@@ -229,8 +229,8 @@ export default {
 					]
 				},
 				{
-					"title": "Chinesische Teigtaschen und Bao",
-					"title-en": "Chinese Dumplings and Baos",
+					"title": "Chinesische Bao",
+					"title-en": "Chinese Baos",
 					"desc": "",
 					"items": [
 						{
