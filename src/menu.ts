@@ -162,8 +162,8 @@ export default {
 							"additives": [13, 15, 18, 25]
 						},
             {
-							"name": "Nudeln in Chiliöl mit Rindfleisch/Tofu",
-							"name-en": "Chili oil noodles with beef/tofu",
+							"name": "Nudeln in Chiliöl mit Rindfleisch oder Tofu",
+							"name-en": "Chili oil noodles with beef or tofu",
 							"name-cn": "红油拌面",
 							"desc": "Auch nicht scharf mit milden Chiliöl verfügbar.",
 							"desc-en": "Available with both mild and spicy chili oil seasoning.",
