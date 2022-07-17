@@ -236,7 +236,7 @@ export default {
 						{
 							"name": "Traditionelle Bao (2 Stk., gedämpft) mit Schweinefleisch",
 							"name-en": "Traditional Bao (2 pc., steamed) with pork",
-							"name-cn": "嵊州猪肉包",
+							"name-cn": "猪肉包",
 							"desc": "Gedämpfte Baozi aus Hefeteig gefüllt mit Schweinefleisch.",
 							"desc-en": "Steamed yeast-dough baozi filled with pork.",
 							"price": 300,
