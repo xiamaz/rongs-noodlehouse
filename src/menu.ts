@@ -220,7 +220,7 @@ export default {
             }, */
 						{
 							"name": "Tonkotsu Ramen",
-							"name-cn": "猪骨汤面",
+							"name-cn": "猪骨拉面",
 							"desc": "Hausgemachte Ramen mit herzhafter Schweinebrühe und zart gegartem Schweinebauch (Chashao) sowie verschiedenen Toppings.",
 							"desc-en": "Homemade ramen with a pork-based broth, tender pork belly and assorted toppings.",
 							"price": 1100,
