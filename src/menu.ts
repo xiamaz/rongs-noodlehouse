@@ -133,10 +133,10 @@ export default {
 	],
 	"sections": [
 		{
-			"title": "Speisen",
-			"title-en": "Menu",
-			"desc": "Unser Tofu, Ramen und unsere Dumplings sind allesamt hausgemacht. Allen Speisen wird kein Geschmacksverstärker zugesetzt.",
-			"desc-en": "Our tofu, ramen and dumplings are all made in-house. No artificial flavoring is added to all dishes.",
+			"title": "",
+			"title-en": "",
+			"desc": "",
+			"desc-en": "",
 			"items": [
 			],
 			"subsections": [
@@ -146,11 +146,11 @@ export default {
 					"desc": "Optional: Extra Nudeln +2€, Extra Ei +1€",
 					"items": [
 						{
-							"name": "Nudelsuppe mit Schweinefleisch oder Rindfleisch",
-							"name-en": "Noodle soup with pork or beef",
-							"name-cn": "猪肉面/牛肉面",
-							"desc": "",
-							"desc-en": "",
+							"name": "Nudelsuppe mit Rindfleisch",
+							"name-en": "Beef noodle soup",
+							"name-cn": "牛肉面",
+							"desc": "Traditionell chinesische Nudelsuppe mit Rindfleisch.",
+							"desc-en": "Traditional chinese noodle soup with beef.",
 							"pictures": [
 								{
 									"path": "photos/beef-ramen.jpeg",
@@ -159,9 +159,25 @@ export default {
 								}
 							],
 							"price": 750,
-							"additives": [13, 15, 18, 21]
+							"additives": [13, 15, 18, 25]
 						},
-						{
+            {
+							"name": "Nudeln in Chiliöl mit Rindfleisch/Tofu",
+							"name-en": "Chili oil noodles with beef/tofu",
+							"name-cn": "红油拌面",
+							"desc": "Auch nicht scharf mit milden Chiliöl verfügbar.",
+							"desc-en": "Available with both mild and spicy chili oil seasoning.",
+							/* "pictures": [
+								{
+									"path": "photos/beef-ramen.jpeg",
+									"alt": "Nudelsuppe mit Rindfleisch",
+									"alt-de": "Beef Noodle Soup"
+								}
+							], */
+							"price": 750,
+							"additives": [13, 18, 25]
+            },
+						/* {
 							"name": "Nudelsuppe vegetarisch mit Tofu",
 							"name-en": "Noodle soup vegetarian",
 							"name-cn": "素面",
@@ -169,10 +185,10 @@ export default {
 							"desc-en": "",
 							"price": 650,
 							"additives": [13, 18, 21]
-						},
-            {
-              "name": "Chinesische Kalte Nudeln mit Rind/Schwein",
-              "name-en": "Chinese Cold Noodles with beef/pork",
+						}, */
+            /* {
+              "name": "Kalte Nudeln mit Rind/Schwein",
+              "name-en": "Cold Noodles with beef/pork",
               "name-cn": "东北冷面",
               "desc": "Mit Eis gekühlte Nudeln mit verschiedenen Toppings, sowie Rindfleisch oder Schweinefleisch-Chashao in würziger Brühe.",
               "desc-en": "Ice-chilled noodles with various toppings, sowie Rindfleisch oder Schweinefleisch-Chashao in a spicy broth.",
@@ -185,8 +201,8 @@ export default {
 									"alt-de": "Chinese Cold Noodles"
 								}
 							],
-            },
-            {
+            }, */
+            /* {
               "name": "Kalte Nudeln (vegan)",
               "name-en": "Cold Noodles (vegan)",
               "name-cn": "素冷面",
@@ -201,7 +217,7 @@ export default {
 									"alt-de": "Cold Noodles Vegan"
 								}
 							],
-            },
+            }, */
 						{
 							"name": "Tonkotsu Ramen",
 							"name-cn": "猪骨汤面",
@@ -218,14 +234,15 @@ export default {
 					"desc": "",
 					"items": [
 						{
-							"name": "Traditionelle Bao (4 Stk., gedämpft) mit Schweinefleisch oder Huhn",
-							"name-en": "Traditional Bao (4 pc., steamed) with pork or chicken",
-							"name-cn": "猪肉包/鸡肉包",
-							"desc": "",
-							"desc-en": "",
-							"price": 600,
+							"name": "Traditionelle Bao (2 Stk., gedämpft) mit Schweinefleisch",
+							"name-en": "Traditional Bao (2 pc., steamed) with pork",
+							"name-cn": "嵊州猪肉包",
+							"desc": "Gedämpfte Baozi aus Hefeteig gefüllt mit Schweinefleisch.",
+							"desc-en": "Steamed yeast-dough baozi filled with pork.",
+							"price": 300,
 							"additives": [13, 18, 21]
 						},
+            /*
             {
 							"name": "Gua Bao mit Rind/Schwein/Tofu",
 							"name-en": "Gua Bao with Beef/Pork/Tofu",
@@ -241,8 +258,8 @@ export default {
 							],
 							"price": 400,
 							"additives": [13, 18, 21]
-            },
-						{
+            }, */
+						/* {
 							"name": "Jiaozi (gekochte chin. Teigtaschen) mit Schweinefleisch",
 							"name-en": "Chinese Dumplings with pork filling",
 							"name-cn": "猪肉水饺",
@@ -257,7 +274,7 @@ export default {
 							],
 							"price": 650,
 							"additives": [13, 18, 21]
-						},
+						}, */
 					]
 				},
 				{

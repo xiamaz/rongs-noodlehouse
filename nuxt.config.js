@@ -58,6 +58,7 @@ export default {
 					additives: 'Additives and allergens',
 					opening: "Opening hours",
 					closed: "closed",
+          subtitle: "Traditional chinese style all-homemade ramen, tofu and baozi.",
 				},
 				de: {
 					welcome: 'Willkommen',
@@ -66,6 +67,7 @@ export default {
 					additives: 'Zusatzstoffe und Allergene',
 					opening: "Öffnungszeiten",
 					closed: "geschlossen",
+          subtitle: "Hausgemachte Ramen, Tofu und Baozi nach traditionell chinesischer Art.",
 				}
 			}
 		},

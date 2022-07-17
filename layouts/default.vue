@@ -1,8 +1,14 @@
 <template>
-  <div class="container-sm mx-auto pt-4 max-w-3xl">
-	  <Title/>
+  <div class="container-sm mx-auto pt-4 max-w-4xl">
+    <div class="grid gap-x-8 md:grid-cols-[10rem_auto]">
+	    <Title class="md:col-start-2"/>
+      <Infobox class="md:row-start-2 md:pt-1"/>
+      <Nuxt class="md:col-start-2"/>
+    </div>
+    <!--
+
     <LocaleSwitcher class="print:hidden"/>
-      <Nuxt />
+    -->
     <FooterSection class="print:hidden"/>
   </div>
 </template>

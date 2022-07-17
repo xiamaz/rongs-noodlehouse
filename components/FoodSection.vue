@@ -1,9 +1,9 @@
 <template>
-	<div>
+	<div class="mb-6">
 			<div class="text-xl mt-4 font-bold">
 				{{ section[`title-${localeSuffix}`] || section.title }}
 			</div>
-			<div class="my-2 mb-4">
+			<div class="">
 				{{ section[`desc-${localeSuffix}`] || section.desc }}
 			</div>
 			<ul class="space-y-4 print:space-y-1">
