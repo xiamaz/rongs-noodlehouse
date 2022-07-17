@@ -1,8 +1,11 @@
 <template>
-	<div class="">
-		<div v-for="section in menuJson.sections" :key="section.title" class="m-2">
-				<FoodSection :level="0" :section="section" :key="section.title" :localeSuffix="currentLocaleSuffix" :showDescription="true"/>
-		</div>
+	<div class="p-[1cm] w-[297mm] mx-auto">
+    <Title/>
+    <div class="">
+		  <div v-for="section in menuJson.sections" :key="section.title" class="m-2">
+		  		<FoodSection :level="0" :section="section" :key="section.title" :localeSuffix="currentLocaleSuffix" :showDescription="false"/>
+		  </div>
+    </div>
 		<div class="ml-1 mt-8">
 			<div class="font-bold text-sm">
 				{{$t("additives")}}

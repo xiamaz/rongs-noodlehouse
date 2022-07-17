@@ -20,7 +20,7 @@
 				<div v-if="item['name-cn']" class="text-sm font-normal">
 					{{item['name-cn']}}
 				</div>
-				<div class="text-sm font-normal">
+				<div v-if="showDescription" class="text-sm font-normal">
 					{{ item[`desc-${localeSuffix}`] || item.desc }}
 				</div>
 			</div>
@@ -31,7 +31,7 @@
 <script>
 import { getUsedAdditives, getUsedId } from "@/src/AdditiveMethods";
 export default {
-	props: ['item', 'localeSuffix'],
+	props: ['item', 'localeSuffix', 'showDescription'],
 	methods: {
 		priceToEurCent(price) {
 			let cents = price % 100;

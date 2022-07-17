@@ -7,16 +7,16 @@
 				{{ section[`desc-${localeSuffix}`] || section.desc }}
 			</div>
 			<ul class="space-y-4 print:space-y-1">
-				<FoodItem :item="item" v-for="item in section.items" :key="item.name" :localeSuffix="localeSuffix"/>
+				<FoodItem :item="item" v-for="item in section.items" :key="item.name" :localeSuffix="localeSuffix" :showDescription="showDescription"/>
 			</ul>
 			<div v-if="section.subsections && section.subsections.length > 0">
-				<FoodSection :level="level + 1" :section="subsection" v-for="subsection in section.subsections" :key="subsection.title" :localeSuffix="localeSuffix"/>
+				<FoodSection :level="level + 1" :section="subsection" v-for="subsection in section.subsections" :key="subsection.title" :localeSuffix="localeSuffix" :showDescription="showDescription"/>
 			</div>
 	</div>
 </template>
 
 <script>
 export default {
-	props: ["section", "level", "localeSuffix"]
+	props: ["section", "level", "localeSuffix", "showDescription"]
 }
 </script>
