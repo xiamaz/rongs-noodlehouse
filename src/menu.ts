@@ -221,8 +221,8 @@ export default {
 						{
 							"name": "Tonkotsu Ramen",
 							"name-cn": "猪骨拉面",
-							"desc": "Hausgemachte Ramen mit herzhafter Schweinebrühe und zart gegartem Schweinebauch (Chashao) sowie verschiedenen Toppings.",
-							"desc-en": "Homemade ramen with a pork-based broth, tender pork belly and assorted toppings.",
+							"desc": "Traditionelle Ramen mit herzhafter Schweinebrühe und zart gegartem Schweinebauch (Chashao) sowie verschiedenen Toppings.",
+							"desc-en": "Traditional ramen with a pork-based broth, tender pork belly and assorted toppings.",
 							"price": 1100,
 							"additives": [13, 15, 18, 25]
 						},
@@ -285,6 +285,7 @@ export default {
 						{
 							"name": "Edamame (grüne Sojabohnen) mit Meersalz",
 							"name-en": "Edamame (green soybeans) with sea salt",
+              "name-cn": "毛豆",
 							"desc": "",
 							"price": 300,
 							"additives": []
@@ -292,6 +293,7 @@ export default {
 						{
 							"name": "Chin. Gurkensalat",
 							"name-en": "Chinese Cucumber Salad",
+              "name-cn": "拍黄瓜",
 							"desc": "",
 							"price": 300,
 							"additives": [18, 23]
@@ -299,6 +301,7 @@ export default {
 						{
 							"name": "Kimchi",
 							"name-en": "Kimchi",
+              "name-cn": "辣白菜",
 							"desc": "",
 							"price": 300,
 							"additives": [18, 23]
@@ -315,6 +318,7 @@ export default {
 				{
 					"name": "Kaffee",
 					"name-en": "Coffee",
+          "name-cn": "咖啡",
 					"desc": "",
 					"price": 180,
 					"additives": [9]
@@ -322,6 +326,7 @@ export default {
 				{
 					"name": "Flaschen-/Dosengetränke",
 					"name-en": "Packackged beverages",
+          "name-cn": "瓶装饮料",
 					"desc": "",
 					"desc-en": "",
 					"price": 200,
