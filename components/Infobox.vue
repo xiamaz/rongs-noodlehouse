@@ -15,6 +15,9 @@
       </div>
     </div>
     <LocaleSwitcher class="mt-4"/>
+    <div class="text-red-500 font-bold text-justify text-sm">
+      Aufgrund der hohen Temperaturen bleiben wir vom 17.08.2022 bis 19.08.2022 geschlossen. Bleiben Sie gesund!
+    </div>
   </div>
 </template>
 
