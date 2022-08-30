@@ -15,9 +15,11 @@
       </div>
     </div>
     <LocaleSwitcher class="mt-4"/>
+    <!--
     <div class="text-red-500 font-bold text-justify text-sm">
       Vom 22.08.2022 bis 26.08.2022 haben wir Betriebsferien. Wir freuen uns Sie danach wieder bedienen zu können!
     </div>
+    -->
   </div>
 </template>
 
