@@ -16,7 +16,25 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/favicon.png' }
-    ]
+    ],
+    script: [{ type: 'application/ld+json', json: {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Rong's Noodlehouse",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Leibnizstraße 101",
+        "addressLocality": "Berlin",
+        "addressRegion": "BE",
+        "postalCode": "10625",
+        "addressCountry": "DE"
+      },
+      "url": "https://rongs-noodlehouse.de",
+      "servesCuisine": "Chinese",
+      "priceRange": "$",
+      "menu": "https://rongs-noodlehouse.de",
+      "acceptsReservations": "False"
+    } }]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
