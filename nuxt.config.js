@@ -31,6 +31,7 @@ export default {
       },
       "url": "https://rongs-noodlehouse.de",
       "servesCuisine": "Chinese",
+      "telephone": "03098418805",
       "priceRange": "$",
       "menu": "https://rongs-noodlehouse.de",
       "acceptsReservations": "False"
