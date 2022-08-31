@@ -4,6 +4,7 @@
       <font-awesome-icon icon="fa-solid fa-house" class="mr-2 pt-1" />
       <div>
         <span> Leibnizstraße 101, </span>
+        <br class="hidden md:block">
         <span> 10625 Berlin </span>
       </div>
     </a>
@@ -11,9 +12,14 @@
       <font-awesome-icon icon="fa-solid fa-clock" class="mr-2 pt-1" />
       <div class="text-justify ">
         <span> {{formatWeekday(1)}} &ndash; {{formatWeekday(5)}} </span>
+        <br class="hidden md:block">
         <span> 11:30 &ndash; 19:00 </span>
       </div>
     </div>
+    <a class="flex flex-row" href="tel:03098418805">
+      <font-awesome-icon icon="fa-solid fa-phone" class="mr-2 pt-1" />
+      <div>030 9841 8805</div>
+    </a>
     <LocaleSwitcher class="mt-4"/>
     <!--
     <div class="text-red-500 font-bold text-justify text-sm">
