@@ -21,11 +21,9 @@
       <div>030 9841 8805</div>
     </a>
     <LocaleSwitcher class="mt-4"/>
-    <!--
     <div class="text-red-500 font-bold text-justify text-sm">
-      Vom 22.08.2022 bis 26.08.2022 haben wir Betriebsferien. Wir freuen uns Sie danach wieder bedienen zu können!
+      Vom 23.12.2022 bis zum 26.12.2022 haben wir geschlossen. Wir wünschen Ihnen ein frohes Fest!
     </div>
-    -->
   </div>
 </template>
 
