@@ -308,6 +308,22 @@ export default {
 						},
 					]
 				},
+				{
+					"title": "Dessert",
+					"title-en": "Dessert",
+					"desc": "",
+					"items": [
+						{
+							"name": "Traditionelle Bao mit roter Bohnenpaste (2 Stk., gedämpft)",
+							"name-en": "Traditional Bao with Red Bean Paste (2 pc., steamed)",
+							"name-cn": "豆沙包",
+							"desc": "Gedämpfte Baozi aus Hefeteig gefüllt mit süßer roter Bohnenpaste.",
+							"desc-en": "Steamed yeast-dough baozi filled with sweet red bean paste.",
+							"price": 300,
+							"additives": [13, 18, 21]
+						},
+          ]
+        }
 			]
 		},
 		{
