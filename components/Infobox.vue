@@ -22,7 +22,7 @@
     </a>
     <LocaleSwitcher class="mt-4"/>
     <div class="text-red-500 font-bold text-justify text-sm">
-      Vom 23.12.2022 bis zum 26.12.2022 haben wir geschlossen. Wir wünschen Ihnen ein frohes Fest!
+      Vom 23.12.2022 bis zum 02.01.2023 haben wir geschlossen. Wir wünschen Ihnen ein frohes Fest und einen guten Rutsch!
     </div>
   </div>
 </template>
