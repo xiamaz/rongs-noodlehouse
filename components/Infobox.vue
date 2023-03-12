@@ -22,7 +22,7 @@
     </a>
     <LocaleSwitcher class="mt-4"/>
     <div class="text-red-500 font-bold text-justify text-sm">
-      Vom 23.12.2022 bis zum 02.01.2023 haben wir geschlossen. Wir wünschen Ihnen ein frohes Fest und einen guten Rutsch!
+      Vom 13.03.2023-17.03.2023 (gesamte Woche) haben wir aus technischen Gründen veränderte Öffnungszeiten von 11:30-15:00.
     </div>
   </div>
 </template>
