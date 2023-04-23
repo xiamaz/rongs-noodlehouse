@@ -164,7 +164,7 @@ export default {
             {
 							"name": "Nudeln in Chiliöl mit Rindfleisch",
 							"name-en": "Chili oil noodles with beef",
-							"name-cn": "红油拌面",
+							"name-cn": "红油牛肉拌面",
 							"desc": "Wählbarer Schärfegrad: wenig scharf / scharf / extra-scharf",
 							"desc-en": "Spicyness levels: less spicy / spicy / extra-spicy",
 							/* "pictures": [
@@ -180,7 +180,7 @@ export default {
             {
 							"name": "Nudeln in Chiliöl mit Tofu (vegetarisch)",
 							"name-en": "Chili oil noodles with tofu",
-							"name-cn": "红油拌面",
+							"name-cn": "红油豆腐拌面",
 							"desc": "Wählbarer Schärfegrad: wenig scharf / scharf / extra-scharf",
 							"desc-en": "Spicyness levels: less spicy / spicy / extra-spicy",
 							/* "pictures": [
