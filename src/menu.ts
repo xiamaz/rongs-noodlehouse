@@ -143,7 +143,7 @@ export default {
 				{
 					"title": "Nudelgerichte nach traditionell chinesischer Art",
           "title-en": "Traditional chinese noodle dishes",
-					"desc": "Optional: Extra Nudeln +2€, Extra Ei +1€",
+					"desc": "Optional: Extra Nudeln +3€, Extra Ei +1€",
 					"items": [
 						{
 							"name": "Nudelsuppe mit Rindfleisch",
@@ -158,12 +158,12 @@ export default {
 									"alt-de": "Beef Noodle Soup"
 								}
 							],
-							"price": 750,
+							"price": 1000,
 							"additives": [13, 15, 18, 25]
 						},
             {
-							"name": "Nudeln in Chiliöl mit Rindfleisch oder Tofu",
-							"name-en": "Chili oil noodles with beef or tofu",
+							"name": "Nudeln in Chiliöl mit Rindfleisch",
+							"name-en": "Chili oil noodles with beef",
 							"name-cn": "红油拌面",
 							"desc": "Auch nicht scharf mit milden Chiliöl verfügbar.",
 							"desc-en": "Available with both mild and spicy chili oil seasoning.",
@@ -174,7 +174,23 @@ export default {
 									"alt-de": "Beef Noodle Soup"
 								}
 							], */
-							"price": 750,
+							"price": 1000,
+							"additives": [13, 18, 25]
+            },
+            {
+							"name": "Nudeln in Chiliöl mit Tofu (vegetarisch)",
+							"name-en": "Chili oil noodles with tofu",
+							"name-cn": "红油拌面",
+							"desc": "Auch nicht scharf mit milden Chiliöl verfügbar.",
+							"desc-en": "Available with both mild and spicy chili oil seasoning.",
+							/* "pictures": [
+								{
+									"path": "photos/beef-ramen.jpeg",
+									"alt": "Nudelsuppe mit Rindfleisch",
+									"alt-de": "Beef Noodle Soup"
+								}
+							], */
+							"price": 1000,
 							"additives": [13, 18, 25]
             },
 						/* {
@@ -218,14 +234,16 @@ export default {
 								}
 							],
             }, */
+            /*
 						{
 							"name": "Tonkotsu Ramen",
 							"name-cn": "猪骨拉面",
 							"desc": "Traditionelle Ramen mit herzhafter Schweinebrühe und zart gegartem Schweinebauch (Chashao) sowie verschiedenen Toppings.",
 							"desc-en": "Traditional ramen with a pork-based broth, tender pork belly and assorted toppings.",
-							"price": 1100,
+							"price": 1450,
 							"additives": [13, 15, 18, 25]
 						},
+            */
 					]
 				},
 				{
@@ -239,7 +257,7 @@ export default {
 							"name-cn": "猪肉包",
 							"desc": "Gedämpfte Baozi aus Hefeteig gefüllt mit Schweinefleisch.",
 							"desc-en": "Steamed yeast-dough baozi filled with pork.",
-							"price": 300,
+							"price": 500,
 							"additives": [13, 18, 21]
 						},
             /*
@@ -277,6 +295,7 @@ export default {
 						}, */
 					]
 				},
+        /*
 				{
 					"title": "Beilagen",
 					"title-en": "Side dishes",
@@ -308,6 +327,8 @@ export default {
 						},
 					]
 				},
+        */
+       /*
 				{
 					"title": "Dessert",
 					"title-en": "Dessert",
@@ -324,6 +345,7 @@ export default {
 						},
           ]
         }
+        */
 			]
 		},
 		{
@@ -336,7 +358,7 @@ export default {
 					"name-en": "Coffee",
           "name-cn": "咖啡",
 					"desc": "",
-					"price": 180,
+					"price": 200,
 					"additives": [9]
 				},
 				{
@@ -345,7 +367,7 @@ export default {
           "name-cn": "瓶装饮料",
 					"desc": "",
 					"desc-en": "",
-					"price": 200,
+					"price": 250,
 					"additives": [0, 2, 9]
 				},
 			]
