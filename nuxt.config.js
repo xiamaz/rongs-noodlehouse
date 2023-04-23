@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-	  title: "Rongs noodlehouse - home-made ramen and buns",
+	  title: "Rongs noodlehouse - home-made noodles and buns",
     htmlAttrs: {
       lang: 'de'
     },
@@ -77,7 +77,7 @@ export default {
 					additives: 'Additives and allergens',
 					opening: "Opening hours",
 					closed: "closed",
-          subtitle: "Traditional chinese style all-homemade ramen, tofu and baozi.",
+          subtitle: "Traditional chinese style all-homemade noodles, tofu and baozi.",
 				},
 				de: {
 					welcome: 'Willkommen',
@@ -86,7 +86,7 @@ export default {
 					additives: 'Zusatzstoffe und Allergene',
 					opening: "Öffnungszeiten",
 					closed: "geschlossen",
-          subtitle: "Hausgemachte Ramen, Tofu und Baozi nach traditionell chinesischer Art.",
+          subtitle: "Hausgemachte Nudeln, Tofu und Bao nach traditionell chinesischer Art.",
 				}
 			}
 		},

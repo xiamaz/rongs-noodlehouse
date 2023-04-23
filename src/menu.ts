@@ -143,7 +143,7 @@ export default {
 				{
 					"title": "Nudelgerichte nach traditionell chinesischer Art",
           "title-en": "Traditional chinese noodle dishes",
-					"desc": "Optional: Extra Nudeln +3€, Extra Ei +1€",
+					"desc": "Optional: Ei +1€, Extra Nudeln +3€",
 					"items": [
 						{
 							"name": "Nudelsuppe mit Rindfleisch",
@@ -165,8 +165,8 @@ export default {
 							"name": "Nudeln in Chiliöl mit Rindfleisch",
 							"name-en": "Chili oil noodles with beef",
 							"name-cn": "红油拌面",
-							"desc": "Auch nicht scharf mit milden Chiliöl verfügbar.",
-							"desc-en": "Available with both mild and spicy chili oil seasoning.",
+							"desc": "Wählbarer Schärfegrad: wenig scharf / scharf / extra-scharf",
+							"desc-en": "Spicyness levels: less spicy / spicy / extra-spicy",
 							/* "pictures": [
 								{
 									"path": "photos/beef-ramen.jpeg",
@@ -181,8 +181,8 @@ export default {
 							"name": "Nudeln in Chiliöl mit Tofu (vegetarisch)",
 							"name-en": "Chili oil noodles with tofu",
 							"name-cn": "红油拌面",
-							"desc": "Auch nicht scharf mit milden Chiliöl verfügbar.",
-							"desc-en": "Available with both mild and spicy chili oil seasoning.",
+							"desc": "Wählbarer Schärfegrad: wenig scharf / scharf / extra-scharf",
+							"desc-en": "Spicyness levels: less spicy / spicy / extra-spicy",
 							/* "pictures": [
 								{
 									"path": "photos/beef-ramen.jpeg",
@@ -255,8 +255,8 @@ export default {
 							"name": "Traditionelle Bao mit Schweinefleisch (2 Stk., gedämpft)",
 							"name-en": "Traditional Bao with pork (2 pc., steamed)",
 							"name-cn": "猪肉包",
-							"desc": "Gedämpfte Baozi aus Hefeteig gefüllt mit Schweinefleisch.",
-							"desc-en": "Steamed yeast-dough baozi filled with pork.",
+							"desc": "Gedämpfter Hefekloß gefüllt mit Schweinefleisch.",
+							"desc-en": "Steamed yeast-dough filled with pork.",
 							"price": 500,
 							"additives": [13, 18, 21]
 						},
