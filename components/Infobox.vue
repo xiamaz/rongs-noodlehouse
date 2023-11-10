@@ -21,12 +21,10 @@
       <div>030 9841 8805</div>
     </a>
     <LocaleSwitcher class="mt-4"/>
-    <!--
 
-    <div class="text-red-500 font-bold text-justify text-sm">
-      Vom 13.03.2023-17.03.2023 (gesamte Woche) haben wir aus technischen Gründen veränderte Öffnungszeiten von 11:30-15:00.
+    <div class="text-red-500 font-bold text-left text-sm">
+      {{ $t("holiday") }}
     </div>
-    -->
   </div>
 </template>
 
