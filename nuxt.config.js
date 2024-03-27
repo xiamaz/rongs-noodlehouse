@@ -78,7 +78,7 @@ export default {
 					opening: "Opening hours",
 					closed: "closed",
           subtitle: "Traditional chinese style all-homemade noodles, tofu and baozi.",
-          holiday: "We are closed 12/04/2023-01/16/2024 for vacation. Happy Holidays!",
+          holiday: "We are closed 03/28/2023-04/01/2024 for vacation. Happy Easter!",
 				},
 				de: {
 					welcome: 'Willkommen',
@@ -88,7 +88,7 @@ export default {
 					opening: "Öffnungszeiten",
 					closed: "geschlossen",
           subtitle: "Hausgemachte Nudeln, Tofu und Bao nach traditionell chinesischer Art.",
-          holiday: "Vom 04.12.2023-16.01.2024 bleiben wir aufgrund von Betriebsferien geschlossen. Frohes Fest und guten Rutsch!",
+          holiday: "Vom 28.03.2024-01.04.2024 bleiben wir geschlossen. Frohe Ostern!",
 				}
 			}
 		},
