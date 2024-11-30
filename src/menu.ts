@@ -353,14 +353,14 @@ export default {
 			"title-en": "Beverages",
 			"desc": "",
 			"items": [
-				{
-					"name": "Kaffee",
-					"name-en": "Coffee",
-          "name-cn": "咖啡",
-					"desc": "",
-					"price": 200,
-					"additives": [9]
-				},
+				// {
+				// 	"name": "Kaffee",
+				// 	"name-en": "Coffee",
+    //       "name-cn": "咖啡",
+				// 	"desc": "",
+				// 	"price": 200,
+				// 	"additives": [9]
+				// },
 				{
 					"name": "Flaschen-/Dosengetränke",
 					"name-en": "Packackged beverages",
