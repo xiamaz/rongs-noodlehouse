@@ -78,7 +78,7 @@ export default {
 					opening: "Opening hours",
 					closed: "closed",
           subtitle: "Traditional chinese style all-homemade noodles, tofu and baozi.",
-          holiday: "We are closed 06/16/2025-07/20/2025 for summer vacation.",
+          holiday: "We are closed 12/22/2025-01/19/2026 for winter vacation.",
 				},
 				de: {
 					welcome: 'Willkommen',
@@ -88,7 +88,7 @@ export default {
 					opening: "Öffnungszeiten",
 					closed: "geschlossen",
           subtitle: "Hausgemachte Nudeln, Tofu und Bao nach traditionell chinesischer Art.",
-          holiday: "Vom 16.06.2025-20.07.2025 bleiben wir für Sommerurlaub geschlossen.",
+          holiday: "Vom 22.12.2025-25.01.2026 bleiben wir für Winterurlaub geschlossen.",
 				}
 			}
 		},
