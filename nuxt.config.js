@@ -78,7 +78,7 @@ export default {
 					opening: "Opening hours",
 					closed: "closed",
           subtitle: "Traditional chinese style all-homemade noodles, tofu and baozi.",
-          holiday: "We are closed 12/22/2025-01/19/2026 for winter vacation.",
+          holiday: "We are closed 12/22/2025-01/25/2026 for winter vacation.",
 				},
 				de: {
 					welcome: 'Willkommen',
